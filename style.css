@@ -118,7 +118,7 @@ body {
 
 .flex-mainmenuimages>div {
   color: #f5ebdc;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bolder;
 
   margin: 8.625px 8.42188px;
@@ -152,48 +152,18 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
   width: 100%;
 }
 
-.flex-item {
-  flex-basis: calc(33.33% - 20px);
-  margin: 10px;
-  text-align: center;
-  transition: transform 0.3s ease;
 
-}
 
-.flex-item img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  max-height: 200px;
-}
 
-.flex-row {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
 
-.flex-row .flex-item {
-  flex-basis: calc(33.33% - 20px);
-  margin: 10px;
-  text-align: center;
-}
 
-.flex-item p {
-  margin-top: 5px;
-}
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-}
+
+
+
 
 .flex-container2 {
   display: flex;
@@ -296,5 +266,5 @@ body {
 }
 
 #footershape {
-  width: 2240px;
+  width: 2230px;
 }
