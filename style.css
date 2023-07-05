@@ -46,7 +46,14 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
+  transition: transform 0.3s ease;
 
+
+}
+
+
+.flex-mainmenuimages>div:hover {
+  transform: scale(1.2);
 }
 
 .sectionTitle {
@@ -138,6 +145,8 @@ body {
   flex-basis: calc(33.33% - 20px);
   margin: 10px;
   text-align: center;
+  transition: transform 0.3s ease;
+
 }
 
 .flex-item img {
@@ -179,6 +188,8 @@ body {
   color: #512212;
   font-size: 30px;
   font-weight: bolder;
+  transition: transform 0.3s ease;
+
 }
 
 .flex-item img {
@@ -202,4 +213,8 @@ body {
 
 .flex-item p {
   margin-top: 10px;
+}
+
+.flex-item:hover {
+  transform: scale(1.2);
 }
